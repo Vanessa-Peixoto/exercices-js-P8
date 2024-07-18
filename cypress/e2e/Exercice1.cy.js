@@ -1,4 +1,4 @@
-import pairNumbers from "../../Exercice1/index";
+import {pairNumbers} from "../../Exercice1/index";
 
 describe('Exercice 1 Validation', () => {
   it('Returns all 5 pair numbers from 1 to 10', ()=>{
@@ -24,4 +24,5 @@ describe('Exercice 1 Validation', () => {
     expect(arrayOfNumbers.length).to.eq(5)
     expect(numbers).to.eq('2,4,6,8,10')
   })
+  
 })

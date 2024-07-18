@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <title>Page sans Accessibilité</title>
 </head>
@@ -9,15 +9,17 @@
 
 <!-- Formulaire sans étiquette pour les champs -->
 <form>
+    <label for="name">Entrez votre nom</label>
     <input id="name" type="text" placeholder="Entrez votre nom">
+    <label for="email">Entrez votre adresse e-mail</label>
     <input id="email" type="email" placeholder="Entrez votre adresse e-mail">
     <button type="submit">Envoyer</button>
 </form>
 
 <!-- Image sans attribut alt -->
-<img src="assets/image.png" height=250>
+<img src="assets/image.png" height=250 alt="Image">
 
 <!-- Lien sans texte descriptif -->
-<a href="#">Cliquez ici</a>
+<a href="#" title="Cliquez sur le lien">Cliquez ici</a>
 </body>
 </html>
